@@ -1,0 +1,148 @@
+:root {
+  --primary-color: #f26000;
+  --secondary-color: #56061f;
+  --tertiary-color: #cf3402;
+  --button-color: #f57000;
+}
+
+.navigation {
+  background-color: black;
+  padding: 10px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.navigation li {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navigation li:hover {
+  background-color: #fff;
+}
+
+body {
+  padding: 20px;
+  background-color: #fafbfd;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 60px;
+  margin-bottom: 0px;
+  font-family: "Titan One", sans-serif;
+}
+
+.slogan {
+  text-align: center;
+  color: var(--secondary-color);
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+}
+
+h2 {
+  margin-bottom: 0;
+  color: #cf3402;
+  font-size: 35px;
+  font-family: "Marcellus", sans-serif;
+}
+
+.Ingredients {
+  display: flex;
+  justify-content: flex-start;
+}
+
+li b {
+  color: var(--primary-color);
+}
+
+.IngredientsImage {
+  width: 300px;
+  height: 350px;
+  padding-left: 200px;
+}
+
+li {
+  margin: 15px;
+}
+
+.Subscription {
+  text-align: center;
+}
+
+.CarrotCake {
+  text-align: center;
+}
+
+.CarrotCakeImage {
+  height: 450px;
+  width: 400px;
+  padding: 10px;
+}
+
+.Subscription {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-family: "Marcellus", sans-serif;
+}
+
+.Email,
+.Subscribe {
+  padding: 8px;
+}
+
+button {
+  background-color: var(--button-color);
+  border: var(--button-color);
+}
+
+h3 {
+  color: #b02104;
+  font-size: 25px;
+  font-family: "Marcellus", sans-serif;
+}
+
+.Comments {
+  align-items: center;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: var(--secondary-color);
+}
+
+.AddComment {
+  width: 200px;
+  height: 50px;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.Submit {
+  padding: 10px;
+  background-color: var(--button-color);
+  border: var(--button-color);
+}
+
+footer {
+  text-align: center;
+  font-family: "Marcellus", sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
